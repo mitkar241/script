@@ -6,7 +6,7 @@ servers=[
     :hostname => "web",
     :ip => "192.168.0.6",
     :box => "chenhan/ubuntu-desktop-20.04",
-    :box_version => "v20200424",
+    :box_version => "20200424",
     :ram => 1024,
     :cpu => 2
   },

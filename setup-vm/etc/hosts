@@ -1,0 +1,24 @@
+####################
+# IPv4 localhost
+####################
+127.0.0.1	localhost
+
+####################
+# The following lines are desirable for IPv6 capable hosts
+####################
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+####################
+# mitkar.io DNS entries
+####################
+192.168.0.200   master-comp00.master.mitkar.io
+192.168.0.201   test-comp01.test.mitkar.io
+192.168.0.202   test-comp02.test.mitkar.io
+192.168.0.203   dev-comp01.dev.mitkar.io
+192.168.0.204   dev-comp02.dev.mitkar.io
+192.168.0.205   prod-comp01.prod.mitkar.io
+192.168.0.206   prod-comp02.prod.mitkar.io

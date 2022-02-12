@@ -1,6 +1,14 @@
 #!/bin/bash
 
-# Usage : bash reducer.sh employeelist.txt 1 10
+<<DESC
+@ FileName   : reducer.sh
+@ Description: Shell script to process large file by processing parts of it in parallel
+@ Usage      : bash reducer.sh employeelist.txt 1 10
+  - here 'employeelist.txt' is the large file with newline delimiter
+  - first script will run for first 10 lines
+  - next one would proces next 10 lines in parallel
+    - so, bash reducer.sh employeelist.txt 11 20 , and so on.
+DESC
 
 srcfile=$1
 line_1=$2
